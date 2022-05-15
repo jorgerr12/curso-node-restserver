@@ -12,7 +12,8 @@
     <div id="g_id_onload"
          data-client_id="387145130098-n210cdvk735qleujh2vvgpg15t52v0lk.apps.googleusercontent.com"
          data-auto_prompt="false"
-         data-callback="handleCredentialResponse">
+         data-callback="handleCredentialResponse"
+         data-auto.select="true">
       </div>
       <div class="g_id_signin"
          data-type="standard"
@@ -25,7 +26,7 @@
       <button id="singOut">
         singOut
       </button>
-    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    
     <script>
         function handleCredentialResponse(response) {
            // decodeJwtResponse() is a custom function defined by you
@@ -57,5 +58,6 @@
         }
 
       </script>
+      <script src="https://accounts.google.com/gsi/client" async defer></script>
 </body>
 </html>
