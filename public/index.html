@@ -33,7 +33,7 @@
            // to decode the credential response.
            var url=(window.location.hostname.includes('localhost'))
                     ?'http://localhost:8080/api/auth/google'
-                    :'https://restserver-curso-renteria.herokuapp.com//api/auth/google';
+                    :'https://restserver-curso-renteria.herokuapp.com/api/auth/google';
            const body={id_token: response.credential}
            fetch(url,{
                 method:'POST',
